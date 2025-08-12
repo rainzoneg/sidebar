@@ -1,7 +1,7 @@
 {
   "name": "@rainzoneg/sidebar",
   "version": "1.0.0",
-  "description": "Custom simple sidebar implementation using the <aside> HTML element",
+  "description": "Custom sidebar implementation using the <aside> HTML element and Tailwind CSS",
   "main": "index.js",
   "scripts": {
     "typecheck": "tsc -p tsconfig.json --noEmit",
@@ -19,7 +19,8 @@
     "typescript",
     "react",
     "web component",
-    "ui"
+    "ui",
+    "taliwindcss"
   ],
   "author": "Samuel Nathaniel Halim <samuelnathaniel1234@gmail.com> (https://github.com/rainzoneg)",
   "license": "MIT",
@@ -28,12 +29,16 @@
   },
   "homepage": "https://github.com/rainzoneg/sidebar#readme",
   "dependencies": {
+    "clsx": "^2.1.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
     "typescript": "^5.9.2"
   }
 }
