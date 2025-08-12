@@ -4,7 +4,10 @@
   "description": "Custom simple sidebar implementation using the <aside> HTML element",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build:types": "tsc -p tsconfig.json",
+    "build:bundle": "tsup src/index.ts --format cjs,esm --dts",
+    "build": "npm run build:bundle"
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,14 @@
   "bugs": {
     "url": "https://github.com/rainzoneg/sidebar/issues"
   },
-  "homepage": "https://github.com/rainzoneg/sidebar#readme"
+  "homepage": "https://github.com/rainzoneg/sidebar#readme",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "typescript": "^5.9.2"
+  }
 }
