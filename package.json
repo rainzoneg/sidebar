@@ -1,0 +1,27 @@
+{
+  "name": "@rainzoneg/sidebar",
+  "version": "1.0.0",
+  "description": "Custom simple sidebar implementation using the <aside> HTML element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rainzoneg/sidebar"
+  },
+  "keywords": [
+    "sidebar",
+    "javascript",
+    "typescript",
+    "react",
+    "web component",
+    "ui"
+  ],
+  "author": "Samuel Nathaniel Halim <samuelnathaniel1234@gmail.com> (https://github.com/rainzoneg)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rainzoneg/sidebar/issues"
+  },
+  "homepage": "https://github.com/rainzoneg/sidebar#readme"
+}
